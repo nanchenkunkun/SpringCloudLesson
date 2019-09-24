@@ -16,6 +16,8 @@ spring:
     sampler:
       probability : 1
 management:
+  security:
+    enabled: false
   endpoints:
     web:
       exposure:
